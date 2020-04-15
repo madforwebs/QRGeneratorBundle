@@ -1,0 +1,34 @@
+2013-02-21 20:57:50: 
+Warning: file_put_contents(/home/fer/www/caranueva/lib/phpqrcode/cache/frame_5.dat): failed to open stream: No such file or directory in /home/fer/www/caranueva/lib/phpqrcode/qrspec.php on line 568
+
+Warning: mkdir(): No such file or directory in /home/fer/www/caranueva/lib/phpqrcode/qrmask.php on line 154
+
+Warning: file_put_contents(/home/fer/www/caranueva/lib/phpqrcode/cache/mask_0/mask_37_0.dat): failed to open stream: No such file or directory in /home/fer/www/caranueva/lib/phpqrcode/qrmask.php on line 155
+
+Warning: mkdir(): No such file or directory in /home/fer/www/caranueva/lib/phpqrcode/qrmask.php on line 154
+
+Warning: file_put_contents(/home/fer/www/caranueva/lib/phpqrcode/cache/mask_1/mask_37_1.dat): failed to open stream: No such file or directory in /home/fer/www/caranueva/lib/phpqrcode/qrmask.php on line 155
+
+Warning: mkdir(): No such file or directory in /home/fer/www/caranueva/lib/phpqrcode/qrmask.php on line 154
+
+Warning: file_put_contents(/home/fer/www/caranueva/lib/phpqrcode/cache/mask_2/mask_37_2.dat): failed to open stream: No such file or directory in /home/fer/www/caranueva/lib/phpqrcode/qrmask.php on line 155
+
+Warning: mkdir(): No such file or directory in /home/fer/www/caranueva/lib/phpqrcode/qrmask.php on line 154
+
+Warning: file_put_contents(/home/fer/www/caranueva/lib/phpqrcode/cache/mask_3/mask_37_3.dat): failed to open stream: No such file or directory in /home/fer/www/caranueva/lib/phpqrcode/qrmask.php on line 155
+
+Warning: mkdir(): No such file or directory in /home/fer/www/caranueva/lib/phpqrcode/qrmask.php on line 154
+
+Warning: file_put_contents(/home/fer/www/caranueva/lib/phpqrcode/cache/mask_4/mask_37_4.dat): failed to open stream: No such file or directory in /home/fer/www/caranueva/lib/phpqrcode/qrmask.php on line 155
+
+Warning: mkdir(): No such file or directory in /home/fer/www/caranueva/lib/phpqrcode/qrmask.php on line 154
+
+Warning: file_put_contents(/home/fer/www/caranueva/lib/phpqrcode/cache/mask_5/mask_37_5.dat): failed to open stream: No such file or directory in /home/fer/www/caranueva/lib/phpqrcode/qrmask.php on line 155
+
+Warning: mkdir(): No such file or directory in /home/fer/www/caranueva/lib/phpqrcode/qrmask.php on line 154
+
+Warning: file_put_contents(/home/fer/www/caranueva/lib/phpqrcode/cache/mask_6/mask_37_6.dat): failed to open stream: No such file or directory in /home/fer/www/caranueva/lib/phpqrcode/qrmask.php on line 155
+
+Warning: mkdir(): No such file or directory in /home/fer/www/caranueva/lib/phpqrcode/qrmask.php on line 154
+
+Warning: file_put_contents(/home/fer/www/caranueva/lib/phpqrcode/cache/mask_7/mask_37_7.dat): failed to open stream: No such file or directory in /home/fer/www/caranueva/lib/phpqrcode/qrmask.php on line 155
