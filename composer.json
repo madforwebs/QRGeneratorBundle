@@ -1,0 +1,22 @@
+{
+  "name": "madforwebs/qrgenerator-bundle",
+  "description": "This bundle provides a qrgeneratorbundle for symfony2",
+  "type": "symfony-bundle",
+  "autoload": {
+    "psr-4": {
+      "MadForWebs\\QRGeneratorBundle\\": ""
+    }
+  },
+  "require": {
+    "symfony/framework-bundle": "~2.3|~3.2"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Fernando Sánchez Martínez",
+      "email": "fer@madforwebs.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}

@@ -1,10 +1,7 @@
 <?php
 
-namespace Fudbuc\QRGeneratorBundle\Lib;
+namespace MadForWebs\QRGeneratorBundle\Lib;
 
-
-
-use Fudbuc\ToolsBundle\Lib\Tools;
 
 require_once __DIR__.'/phpqrcode/phpqrcode.php';
 
