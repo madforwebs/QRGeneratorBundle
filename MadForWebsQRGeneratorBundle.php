@@ -1,6 +1,6 @@
 <?php
 
-namespace Fudbuc\QRGeneratorBundle;
+namespace MadForWebs\QRGeneratorBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
