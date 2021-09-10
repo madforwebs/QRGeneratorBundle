@@ -4,4 +4,4 @@ parameters:
 services:
    mfw_qr_generator:
        class: %mfw_qr_generator.class%
-       arguments: ["@doctrine.orm.entity_manager", "@router", "@memcached.default"]
+       arguments: ["@doctrine.orm.entity_manager", "@router"]

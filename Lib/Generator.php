@@ -21,17 +21,15 @@ class Generator
 
     private $router;
 
-    private $memcached;
-
     private $document_root;
 
     private $public_root;
 
-    public function __construct( $entityManager, $router, $memcached)
+    public function __construct( $entityManager, $router)
     {
         $this->em = $entityManager;
         $this->router = $router;
-        $this->memcached = $memcached;
+        
         return $this;
     }
 
