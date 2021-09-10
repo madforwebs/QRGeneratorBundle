@@ -4,6 +4,6 @@ namespace MadForWebs\QRGeneratorBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class MadForWebsQRGeneratorBundle extends Bundle
+class QRGeneratorBundle extends Bundle
 {
 }
