@@ -43,6 +43,8 @@ class Generator
 
         }else if($type == 'profile'){
                 $PNG_TEMP_DIR .= 'profiles_photo/';
+        }else{
+                $PNG_TEMP_DIR .= 'profiles_photo/';
         }
         $matrixPointSize = min(max((int) 4, 1), 10);
         $errorCorrectionLevel = 'L';
@@ -53,6 +55,8 @@ class Generator
                 $referer = $this->router->generate('recipe_show', array('nameCod' => $url), true);
             }else if($type == 'profile'){
                 $referer = $this->router->generate('user_profile_show', array('username' => $url), true);
+            }else{
+                $referer = $this->router->generate($type, array('username' => $url), true);
             }
             \QRcode::png($referer, $PNG_TEMP_DIR . $filename, $errorCorrectionLevel, $matrixPointSize, 2);
         }
