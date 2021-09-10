@@ -34,7 +34,7 @@ class Generator
     }
 
 
-    public function createQR( $url, $pathQr ,$type = 'recipe')
+    public function createQR( $url, $pathQr ,$type = 'recipe', $id = null)
     {
         $PNG_TEMP_DIR = $pathQr.'/';
         if($type == 'recipe'){
@@ -53,8 +53,8 @@ class Generator
                 $referer = $this->router->generate('recipe_show', array('nameCod' => $url), true);
             }else if($type == 'profile'){
                 $referer = $this->router->generate('user_profile_show', array('username' => $url), true);
-            }else{
-                $referer = $this->router->generate($type, array('username' => $url), true);
+            }else if($id != null){
+                $referer = $this->router->generate($type, array('id' => $id), true);
             }
             \QRcode::png($referer, $PNG_TEMP_DIR . $filename, $errorCorrectionLevel, $matrixPointSize, 2);
         }
